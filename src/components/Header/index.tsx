@@ -6,7 +6,7 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.svg'
+import Logo from '../../assets/images/logo.png'
 import LogoDark from '../../assets/svg/logo_white.svg'
 import Wordmark from '../../assets/svg/wordmark.svg'
 import WordmarkDark from '../../assets/svg/wordmark_white.svg'
@@ -142,6 +142,7 @@ export default function Header() {
 
   return (
     <HeaderFrame>
+      {/*}
       <MigrateBanner>
         Uniswap V2 is live! Read the&nbsp;
         <ExternalLink href="https://uniswap.org/blog/launch-uniswap-v2/">
@@ -153,12 +154,14 @@ export default function Header() {
         </StyledInternalLink>
         .
       </MigrateBanner>
+      {*/}
       <RowBetween padding="1rem">
         <HeaderElement>
           <Title>
             <UniIcon id="link" to="/">
-              <img src={isDark ? LogoDark : Logo} alt="logo" />
+              <img src={Logo} alt="logo" />
             </UniIcon>
+            {/*}
             {!isMobile && (
               <TitleText>
                 <HistoryLink id="link" to="/">
@@ -170,8 +173,11 @@ export default function Header() {
                 </HistoryLink>
               </TitleText>
             )}
+            {*/}
           </Title>
+          {/*}
           <TestnetWrapper style={{ pointerEvents: 'auto' }}>{!isMobile && <VersionSwitch />}</TestnetWrapper>
+          {*/}
         </HeaderElement>
         <HeaderElement>
           <TestnetWrapper>
@@ -187,8 +193,10 @@ export default function Header() {
             </BalanceWrapper>
             <Web3Status />
           </AccountElement>
+          {/*}
           <Settings />
           <Menu />
+          {*/}
         </HeaderElement>
       </RowBetween>
     </HeaderFrame>

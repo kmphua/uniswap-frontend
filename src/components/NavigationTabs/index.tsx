@@ -15,7 +15,7 @@ const tabOrder = [
     path: '/swap',
     textKey: 'swap',
     regex: /\/swap/
-  },
+  }/*,
   {
     path: '/send',
     textKey: 'send',
@@ -25,7 +25,7 @@ const tabOrder = [
     path: '/pool',
     textKey: 'pool',
     regex: /\/pool/
-  }
+  }*/
 ]
 
 const Tabs = styled.div`
