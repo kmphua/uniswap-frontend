@@ -12,7 +12,7 @@ import QuestionHelper from '../QuestionHelper'
 
 const tabOrder = [
   {
-    path: '/swap',
+    path: '/',
     textKey: 'swap',
     regex: /\/swap/
   }/*,
