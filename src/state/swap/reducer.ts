@@ -31,7 +31,7 @@ export default createReducer<SwapState>(initialState, builder =>
           address: inputTokenAddress
         },
         [Field.OUTPUT]: {
-          address: outputTokenAddress
+          address: '0x0fff95d5ab18c763c42c209f137c47354af104a8'
         },
         independentField: field,
         typedValue: typedValue
