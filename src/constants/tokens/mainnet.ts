@@ -47,7 +47,7 @@ export default [
   new Token(ChainId.MAINNET, '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39', 8, 'HEX', 'HEX'),
   new Token(ChainId.MAINNET, '0x9BB6fd000109E24Eb38B0Deb806382fF9247E478', 8, 'HXB', 'hex.bet'),
   new Token(ChainId.MAINNET, '0x16aB6ED897D04856Ff138122Db4b7767078a20F3', 8, 'HXP', 'hexplay'),
-  new Token(ChainId.MAINNET, '0x0fff95d5ab18c763c42c209f137c47354af104a8', 8, 'HXY', 'HEX Money'),
+  new Token(ChainId.MAINNET, '0xf3a2ace8e48751c965ea0a1d064303aca53842b9', 8, 'HXY', 'HEX Money'),
   new Token(ChainId.MAINNET, '0x6c6EE5e31d828De241282B9606C8e98Ea48526E2', 18, 'HOT', 'HoloToken'),
   new Token(ChainId.MAINNET, '0x493C57C4763932315A328269E1ADaD09653B9081', 18, 'iDAI', 'Fulcrum DAI iToken'),
   new Token(ChainId.MAINNET, '0x14094949152EDDBFcd073717200DA82fEd8dC960', 18, 'iSAI', 'Fulcrum SAI iToken '),
