@@ -28,10 +28,10 @@ export default createReducer<SwapState>(initialState, builder =>
     .addCase(replaceSwapState, (state, { payload: { typedValue, field, inputTokenAddress, outputTokenAddress } }) => {
       return {
         [Field.INPUT]: {
-          address: inputTokenAddress
+          address: '0xf3a2ace8e48751c965ea0a1d064303aca53842b9'
         },
         [Field.OUTPUT]: {
-          address: '0xf3a2ace8e48751c965ea0a1d064303aca53842b9'
+          address: '0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39'
         },
         independentField: field,
         typedValue: typedValue
